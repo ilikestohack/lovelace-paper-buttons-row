@@ -66,6 +66,7 @@ Each button supports the same actions as seen in Home Assistant's [button card](
 | icon   | `object` | **Optional** | CSS styles to apply to specifically the icon.          |
 | text   | `object` | **Optional** | CSS styles to apply to specifically the button text.   |
 | ripple | `object` | **Optional** | CSS styles to apply to specifically the ripple effect. |
+| card   | `object` | **Optional** | CSS styles to apply to specifically the card effect.   |
 
 ## Embedding in other entity rows
 
