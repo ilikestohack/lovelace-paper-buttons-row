@@ -148,7 +148,11 @@ class PaperButtonsRow extends LitElement {
     return html`
       ${this._config.buttons.map((row) => {
         return html`
-          <div class="flex-box">
+          <div class="flex-box" style="${this._getStyle(
+              config,
+              stateStyle,
+              "icon"
+            )}">
             ${row.map((config) => {
               const stateObj = this._hass.states[config.entity] || {};
               const stateStyle =
